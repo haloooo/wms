@@ -1,0 +1,107 @@
+.login {
+	background-color: #f7f7f7;
+}
+
+.login-header {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 35px;
+	color: #0b972c;
+}
+
+.sys-logo img{
+   width: 110px; float: left;
+}
+
+.sys-logo span {
+	margin-left: 50px;
+	color: #0b972c;
+}
+
+.login-body {
+	background: url("../images/login-bg.png");
+	background-size: 100% 500px;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.login-form {
+	background-color: #fff;
+	height: 380px;
+	width: 380px;
+	float: right;
+	margin-right: 100px;
+	margin-top: 60px;
+	padding: 50px;
+}
+
+.login-form-title {
+	font-size: 30px;
+	color: #0b972c;
+}
+
+.login-form-title-icon {
+	background: url("../images/login-form-title-icon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.login-form-content {
+	margin-top: 40px;
+}
+
+.select2-container--default .select2-selection--single,
+	.select2-selection .select2-selection--single {
+	border: 1px solid #d2d6de;
+	border-radius: 0;
+	padding: 6px 12px;
+	padding-left: 20px;
+	height: 34px;
+	color: #555;
+	height: 34px;
+}
+
+.select2::before {
+	content: "\f0fd";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 14px;
+	line-height: 1;
+	font-size: inherit;
+	text-rendering: auto;
+	display: inline-block;
+}
+
+.form-control-feedback {
+	left: 0;
+}
+
+.has-feedback .form-control {
+	padding-left: 30px;
+}
+
+.register {
+	color: #32a8ee;
+	font-size: 16px;
+}
+
+.pull-right {
+	text-align: right;
+}
+
+.login-footer {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #999999;
+	text-align: center;
+}
+.login_btn{ background-color: #0b972c}

@@ -1,0 +1,6 @@
+.el-table--scrollable-x .el-table__body-wrapper {
+    overflow-x: hidden;  !important
+}
+.xs_style{
+	padding_bottom: 85px;
+}

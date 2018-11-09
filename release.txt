@@ -1,0 +1,30 @@
+﻿Version 1.1 2018/8/13
+Support Function: 
+1.Overview of the whole frame
+
+Version 1.2 2018/9/4
+1）	根据三个设定值，确定报警颜色。
+2）	在图表中增加了Actual和Plan的数值。
+3）	将Plan线改为斜线显示。
+
+Version 1.3 2018/9/12
+(1) corrected the display at 0-8 hours.
+(2) increased access management.
+A. administrator can modify user's permissions (whether Plan can be set).
+B. administrator account: admin. Password: 12456
+
+Version 1.4 2018/9/17
+よりよくするために追加で表示の改善と一部計算方法の変更をお願いします。
+・	背景アラーム色の判定方法変更				
+・	Expectのグラフ表示方法の変更				
+・	Plan線を平滑線⇒折れ線に変更				
+・	上部表示のPlanの数字をTime_PartとしてのPlanから現時点の時間まで考慮したPlan数に変更				
+		PlanとActualの比較もこの時間まで考慮したものと比較
+
+Version 1.5 2018/9/26
+・過去の日付の結果を検索/表示可能にする。
+・数字を表で表示するページを追加(呉さんのAdditional PQM Kanbanを廃止するため)
+詳細は”0920”をご確認ください。
+	
+
+ 

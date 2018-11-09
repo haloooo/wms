@@ -1,0 +1,13 @@
+{
+  "database":[
+    {
+      "MODEL": "KK07",
+      "ENGINE": "django.db.backends.postgresql_psycopg2",
+      "NAME": "wms1",
+      "USER": "postgres",
+      "PASSWORD": "postgres",
+      "HOST": "localhost",
+      "PORT": "5432"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        {% block title %}{% endblock %} - 日本电产精密马达科技（东莞）有限公司
+    </title>
+    <link rel="stylesheet" href="/static/resource/element/index.css">
+    <link rel="stylesheet" href="/static/resource/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/static/resource/AdminLTE/dist/css/AdminLTE.min.css"/>
+    <link rel="stylesheet" href="/static/resource/AdminLTE/dist/css/skins/_all-skins.min.css"/>
+    <link rel="stylesheet" href="/static/resource/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"/>
+    <link rel="stylesheet" href="/static/resource/AdminLTE/plugins/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/static/resource/css/common.css"/>
+    <link rel="stylesheet" href="/static/resource/css/pagination.css"/>
+</head>
+
+
+<body class="skin-blue sidebar-mini fixed sidebar-mini-expand-feature">
+<div id="navMain">
+    {% include 'public/header.html' %}
+    {% include 'public/sidebar.html' %}
+</div>
+
+
+{% block content %}{% endblock %}
+<script src="/static/resource/element/index.js"></script>
+<script src="/static/resource/jquery/js/jquery.min.js"></script>
+<script src="/static/resource/bootstrap/js/bootstrap.js"></script>
+<script src="/static/resource/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="/static/resource/AdminLTE/dist/js/adminlte.min.js"></script>
+<script src="/static/resource/element/axios.min.js"></script>
+{% block script %} {% endblock %}
+{% block style %} {% endblock %}
+
+
+</body>
+</html>
+

@@ -1,0 +1,490 @@
+.main-header .logo {
+    line-height: 48px;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu {
+    width: 180px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    min-width: 100px;
+    text-align: center;
+}
+
+.skin-blue .main-header .logo {
+    background: #0a7423;
+}
+
+.skin-blue .main-header .logo:hover {
+    background: #0e952e;
+}
+
+.skin-blue .main-header .navbar {
+    background: #0e952e;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #0a7423;
+}
+
+.content .el-table td,
+.content .el-table th {
+    padding: 5px;
+}
+
+.content {
+    min-height: 75vh;
+}
+
+.treeview-menu li {
+    padding-left: 30px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.table_style {
+    padding: 1% 1%;
+    border-radius: 1px;
+    padding-bottom: 85px;
+}
+
+.pages {
+    text-align: right;
+    margin-top: 25px;
+}
+
+#app .date_input,
+body .date_input {
+    width: 140px !important;
+}
+
+.width140 {
+    width: 140px !important;
+}
+
+.el-table td, .el-table th.is-leaf {
+
+}
+
+.fd_dialog_mini {
+    width: 90%;
+    max-width: 400px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+    width: 100%;
+}
+
+body .input-class .el-input__inner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.purchase .el-table__body tr.warning-row:hover td,
+.purchase .el-table__body tr.warning-row td {
+    background: #E6A23C;
+!important color: #fff !important;
+}
+
+.purchase .el-table__body tr:hover td.warning-cell,
+.purchase .el-table__body tr td.warning-cell {
+    background: #E6A23C;
+!important color: #fff !important;
+}
+
+.purchase .el-table .warning-cell {
+    color: #FFFFFF;
+}
+
+.storein .el-form-item {
+    padding-right: 40px;
+}
+
+.per_list {
+    margin-bottom: 20px;
+}
+
+.per_list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.per_list li {
+    display: inline-block;
+    width: 20%;
+}
+
+.per_list h3 {
+    margin: 0px 0 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px #ccc solid;
+    font-weight: bold;
+}
+
+/*================================================= */
+
+.skin-blue .sidebar-menu > li.active > a {
+    border-left-color: #222d32;
+}
+
+label.error {
+    color: red;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.navbar-title {
+    float: left;
+    line-height: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.content {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table tbody tr td {
+    word-break: break-all;
+    font-size: 13px;
+}
+
+.box table tbody tr td {
+    /*white-space: nowrap;*/
+    border: 1px solid #ddd;
+}
+
+.box table thead tr th {
+    white-space: nowrap;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.box {
+    overflow-x: auto;
+    position: relative;
+    border-radius: 0;
+    border-top: none;
+    width: 100%;
+    box-shadow: inherit;
+    margin-bottom: 10px;
+}
+
+.table {
+    margin-bottom: 10px;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form table tbody tr td {
+    white-space: nowrap;
+    border: 1px dotted #ddd;
+    font-size: 13px;
+}
+
+.search-form table tbody tr th {
+    white-space: nowrap;
+    background-color: #eee;
+    border: 1px dotted #ddd;
+    text-align: right;
+    font-weight: 500;
+    line-height: 34px;
+    font-size: 13px;
+}
+
+.form table tbody tr td {
+    white-space: nowrap;
+    border: 1px dotted #ddd;
+    font-size: 13px;
+}
+
+.form table tbody tr th {
+    white-space: nowrap;
+    background-color: #eee;
+    border: 1px dotted #ddd;
+    text-align: right;
+    font-weight: 500;
+    line-height: 34px;
+    font-size: 13px;
+}
+
+.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 5px 0px;
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-selection .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.select2-selection .select2-selection--multiple {
+    border: 1px solid #d2d6de;
+    border-radius: 0;
+    height: 34px;
+    color: #555;
+}
+
+.ztree-slidedown {
+    margin-top: 10px;
+    border: 1px solid #617775;
+    background: #f0f6e4;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.user-panel {
+    height: 40px;
+    font-weight: 600;
+    border-bottom: 2px solid #00b8d4;
+    text-align: center;
+}
+
+.no-background {
+    background: none;
+}
+
+.introduction {
+    color: #999;
+    line-height: 34px;
+}
+
+.fixed-tab-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 2059px) {
+    .fixed-tab-content {
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 1809px) {
+    .fixed-tab-content {
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 1559px) {
+    .fixed-tab-content {
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 1309px) {
+    .fixed-tab-content {
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 1059px) {
+    .fixed-tab-content {
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .fixed-tab-content {
+        max-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .fixed-tab-content {
+        max-height: 400px;
+    }
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.split-line {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
+    overflow: hidden;
+    font-size: 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.width-130 {
+    width: 130px;
+}
+
+.width-140 {
+    width: 140px;
+}
+
+.padding-h-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding-left-40 {
+    padding-left: 40px;
+}
+
+.qb_btn_color {
+    background-color: #3c8dbc;
+    font-weight: bolder;
+    width: 82px;
+    height: 34px;
+    float: left;
+    margin: 0px
+}
+
+.qb_btn_color a {
+    color: white
+}
+
+.label_font {
+    font-size: 14px;
+    color: #606266;
+    font-weight: 700;
+    vertical-align: middle;
+    line-height: 40px;
+
+}
+
+.qb_btn_2 {
+    background-color: #3c8dbc;
+    color: #fff;
+    font-weight: bolder;
+    height: 34px;
+    float: left;
+    margin: 0px
+}
+
+.qb_btn_2 a {
+    color: white
+}
+
+.table-th {
+    text-align: center;
+    /* background:  */
+    height: 40px;
+    padding: 0;
+}
+
+.jc_2_add {
+    float: right;
+    height: 58px;
+    line-height: 58px;
+    margin-right: 5%
+}
+
+.el-row {
+    margin-bottom: 0px;
+}
+
+.el-col {
+    border-radius: 4px;
+}
+
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}
+
+.row-bg {
+    padding: 10px 0;
+}
+
+.demo-table-expand {
+    margin-left: 50px;
+}
+
+.table_link {
+    height: 20px;
+    color: blue
+}
+
+.el-button--text {
+    color: #0b972c
+}
+
+.el-pager li.active {
+    color: #67c23a;
+}
+
+.el-select-dropdown__item.selected {
+    color: #67c23a;
+    font-weight: 700;
+}
+
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
+    color: #67c23a;
+}
+
+.stock_table {
+    width: 70%;
+    border: 1px solid #eeeeee;
+    margin-left: 10%;
+}
+
+.stock_table tr td{
+    border: 1px solid #eeeeee;
+    padding: 5px;
+}
+
+.align_center{
+    text-align: center;
+}
+.align_right{
+    text-align: right;
+}
+
+.stock_out_table {
+    width: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.stock_out_table tr td{
+    border: 1px solid #eeeeee;
+    padding: 5px;
+}
+
+.line_height{ height: 30px; line-height: 30px}
+.no_date{ width: 100%; text-align: center; height: 50px; line-height: 50px}
+.scope_spec{ float: left; width: 30%}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #67c23a;
+    border-color: #67c23a;
+}
+
+.spec_form_item{ padding-bottom: 24px}
+.spec_form_item_left{ width: 100px;text-align: right; float: left;line-height: 28px}
+.col_spec{width: 130px;float: left; margin-left: 2px;text-align: center}
+.stock_out_spec{ width: 50px;float: left;margin-left: 2px;text-align: center}
+.stock_stock_spec{ float: left; margin-left: 2px;text-align: center}

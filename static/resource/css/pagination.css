@@ -1,0 +1,12 @@
+.page-bar {
+	text-align: right;
+}
+
+.page-bar .pagination {
+	margin: 0;
+	padding: 0;
+}
+
+.page-total {
+	padding-top: 5px;
+}

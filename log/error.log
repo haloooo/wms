@@ -1,0 +1,587 @@
+2018-09-27 08:40:22,466 - Not Found: /img/favicon.png
+2018-09-27 08:49:15,173 - Internal Server Error: /getAllPlans
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\basics\views\plan.py", line 40, in getAllPlans
+    if list(assys)[0][0]:
+IndexError: list index out of range
+2018-09-25 08:49:34,155 - Internal Server Error: /getAllPlans
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\basics\views\plan.py", line 40, in getAllPlans
+    if list(assys)[0][0]:
+IndexError: list index out of range
+2018-09-25 08:55:33,851 - Internal Server Error: /getAllPlans
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\basics\views\plan.py", line 40, in getAllPlans
+    if list(assys)[0][0]:
+IndexError: list index out of range
+2018-09-25 08:56:11,180 - Internal Server Error: /getAllPlans
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\basics\views\plan.py", line 40, in getAllPlans
+    if list(assys)[0][0]:
+IndexError: list index out of range
+2018-09-25 08:59:04,604 - Internal Server Error: /getAllPlans
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\basics\views\plan.py", line 40, in getAllPlans
+    if list(assys)[0][0]:
+IndexError: list index out of range
+2018-09-27 13:15:30,344 - Not Found: /img/favicon.png
+2018-09-27 14:51:47,433 - Not Found: /img/favicon.png
+2018-09-25 14:55:49,764 - Internal Server Error: /getAllPlans
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\basics\views\plan.py", line 40, in getAllPlans
+    if list(assys)[0][0]:
+IndexError: list index out of range
+2018-09-25 14:55:50,011 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+psycopg2.ProgrammingError: syntax error at end of input
+LINE 1: SELECT see_assys FROM m_user WHERE id=
+                                              ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 88, in initData
+    cur.execute(SQL_1)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+django.db.utils.ProgrammingError: syntax error at end of input
+LINE 1: SELECT see_assys FROM m_user WHERE id=
+                                              ^
+
+2018-09-25 14:55:50,288 - Not Found: /img/favicon.png
+2018-09-28 08:30:24,347 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:30:34,788 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:30:44,780 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:30:54,777 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:31:04,783 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:31:14,776 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:31:24,781 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:31:34,781 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:31:44,783 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:31:54,791 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 08:32:04,780 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 148, in initData
+    cur.execute(SQL_3, (datestr, datestr, now_time))  # 查出各产线今天有没有数据
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "t_history" does not exist
+LINE 5:             t_history 
+                    ^
+
+2018-09-28 09:21:57,361 - Not Found: /img/favicon.png
+2018-10-09 10:06:21,396 - Not Found: /img/favicon.png
+2018-10-09 14:49:48,839 - Not Found: /img/favicon.png
+2018-10-09 16:24:02,448 - Not Found: /img/favicon.png
+2018-10-09 16:55:31,057 - Not Found: /img/favicon.png
+2018-08-05 13:23:17,448 - Internal Server Error: /initData
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+psycopg2.ProgrammingError: syntax error at end of input
+LINE 1: SELECT see_assys FROM m_user WHERE id=
+                                              ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\kanban\RtMonSys\views\view_homePage.py", line 19, in initData
+    result = model_homePage.initData(request)
+  File "D:\项目汇总\kanban\RtMonSys\models\model_homePage.py", line 88, in initData
+    cur.execute(SQL_1)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\venv\lib\site-packages\django\db\backends\utils.py", line 83, in _execute
+    return self.cursor.execute(sql)
+django.db.utils.ProgrammingError: syntax error at end of input
+LINE 1: SELECT see_assys FROM m_user WHERE id=
+                                              ^
+
+2018-11-09 16:16:54,649 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\项目汇总\仓库管理\RtMonSys\views\view_config.py", line 11, in go_config
+    return render(request, 'config/index.html')
+  File "C:\Users\Administrator\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Administrator\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: config/index.html
+2018-11-09 16:17:36,153 - Not Found: /go_homePage
